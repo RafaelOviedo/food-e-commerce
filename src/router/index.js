@@ -3,6 +3,8 @@ import HomePage from '../views/HomePage';
 import LogInPage from '../views/LogInPage';
 import LandingPage from '../views/LandingPage';
 import RegisterPage from '../views/RegisterPage';
+import ProductsPage from '../views/ProductsPage';
+import AboutPage from '../views/AboutPage';
 
 const routes = [
     {
@@ -11,7 +13,7 @@ const routes = [
         component: LandingPage
     },
     {
-        path: '/',
+        path: '/home',
         name: 'HomePage',
         component: HomePage
     },
@@ -24,6 +26,16 @@ const routes = [
         path: '/register',
         name: 'RegisterPage',
         component: RegisterPage
+    },
+    {
+        path: '/products',
+        name: 'ProductsPage',
+        component: ProductsPage
+    },
+    {
+        path: '/about',
+        name: 'AboutPage',
+        component: AboutPage
     }
 ]
 
