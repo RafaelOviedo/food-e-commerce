@@ -1,0 +1,143 @@
+[
+   {
+      "id": 316213,
+      "title": "Cinnamon Dolce Latte - Tall w/ 2% Milk, No Whipped Cream",
+      "image": "https://images.spoonacular.com/file/wximages/316213-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Starbucks",
+      "servingSize": "12 fl. oz",
+      "readableServingSize": "Tall",
+      "price": 120,
+      "servings": {
+        "number": 1.0,
+        "size": 12.0,
+        "unit": "fl oz"
+      }
+    },
+    {
+      "id": 399059,
+      "title": "Roast Beef Classic Sub (Small)",
+      "image": "https://spoonacular.com/menuItemImages/roast-beef-and-cheese-sub.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "ThunderCloud Subs",
+      "servingSize": null,
+      "readableServingSize": "Small",
+      "servings": {
+        "number": 1.0,
+        "size": null,
+        "unit": null
+      }
+    },
+    {
+      "id": 315949,
+      "title": "White Chocolate Creme Frappuccino - Tall w/ Whole Milk, Whipped Cream",
+      "image": "https://images.spoonacular.com/file/wximages/315949-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Starbucks",
+      "servingSize": "12 fl. oz",
+      "readableServingSize": "Tall",
+      "servings": {
+        "number": 1.0,
+        "size": 12.0,
+        "unit": "fl oz"
+      }
+    },
+    {
+      "id": 315554,
+      "title": "Caffe Vanilla Frappuccino - Tall w/ Soy Milk, Whipped Cream",
+      "image": "https://images.spoonacular.com/file/wximages/315554-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Starbucks",
+      "servingSize": "12 fl. oz",
+      "readableServingSize": "Tall",
+      "servings": {
+        "number": 1.0,
+        "size": 12.0,
+        "unit": "fl oz"
+      }
+    },
+    {
+      "id": 374918,
+      "title": "Meatball Original Crust Pizza",
+      "image": "https://images.spoonacular.com/file/wximages/374918-312x231.png",
+      "imageType": "png",
+      "restaurantChain": "Gambino's Pizza",
+      "servingSize": "1 Slice",
+      "readableServingSize": "Large",
+      "servings": {
+        "number": 1.0,
+        "size": 1.0,
+        "unit": "Slice"
+      }
+    },
+    {
+      "id": 397080,
+      "title": "Small Genoa/Capicola & Provolone Italian Cold Sandwich",
+      "image": "https://spoonacular.com/menuItemImages/sandwich.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Amato's Sandwich Shops",
+      "servingSize": "283g",
+      "readableServingSize": "Small",
+      "servings": {
+        "number": 1.0,
+        "size": 283.0,
+        "unit": "g"
+      }
+    },
+    {
+      "id": 389692,
+      "title": "Berry Nutty Pancakes Tall Stack",
+      "image": "https://spoonacular.com/menuItemImages/pancakes.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Scrambler Marie's Breakfast Bistro",
+      "servingSize": "9oz",
+      "readableServingSize": "Tall",
+      "servings": {
+        "number": 1.0,
+        "size": 9.0,
+        "unit": "oz"
+      }
+    },
+    {
+      "id": 316344,
+      "title": "Iced Hazelnut Macchiato - Tall w/ Soy Milk",
+      "image": "https://spoonacular.com/menuItemImages/caramel-machiatto.png",
+      "imageType": "png",
+      "restaurantChain": "Starbucks",
+      "servingSize": "12 fl. oz",
+      "readableServingSize": "Tall",
+      "servings": {
+        "number": 1.0,
+        "size": 12.0,
+        "unit": "fl oz"
+      }
+    },
+    {
+      "id": 248933,
+      "title": "Honey Glazed Walnuts, for Fall Harvest Salade",
+      "image": "https://images.spoonacular.com/file/wximages/248933-312x231.jpg",
+      "imageType": "jpg",
+      "restaurantChain": "Mimi's Cafe",
+      "servingSize": "14g",
+      "readableServingSize": "0 oz",
+      "servings": {
+        "number": 1.0,
+        "size": 14.0,
+        "unit": "g"
+      }
+    },
+    {
+      "id": 286530,
+      "title": "All Non Dairy Smoothies Tropical wave",
+      "image": "https://spoonacular.com/menuItemImages/smoothie.png",
+      "imageType": "png",
+      "restaurantChain": "Fresh City",
+      "servingSize": null,
+      "readableServingSize": null,
+      "servings": {
+        "number": 1.0,
+        "size": null,
+        "unit": null
+      }
+    }
+]
