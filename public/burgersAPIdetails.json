@@ -1,0 +1,213 @@
+[
+   {
+      "id": 1,
+      "title": "In-N-Out Burger ",
+      "image": "https://cdn.vox-cdn.com/thumbor/JeOJkDr8WN7U8A1a2Z6CLVh9azc=/0x0:1024x684/1120x0/filters:focal(0x0:1024x684):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/3617586/in-n-out-essentialsolares.0.png",
+      "type": "classic",
+      "price": 120,
+      "description": "Yes, it's a chain with hundreds of locations. But no burger chain inspires a fan fervor quite like the California-based In-N-Out, which has been serving the same simple burger (thin-patty, topped with lettuce, tomato, and maybe cheese or onions) since 1948. 'There is no better fast-food burger,' argues Eater LA editor Matt Kang, who also notes that the chain's double-double, 'which is a paragon of what a simple burger should be,' is cheaper than a Big Mac. 'There are plenty of detractors who don't understand the beautiful simplicity, everyday accessibility, and overall wholesomeness of this burger,' Kang says. 'It's their loss, because In-N-Out will likely outlive all other fast food burger chains.",
+      "year": 1948,
+      "rating": 3
+    },
+   {
+      "id": 2,
+      "title": "Workingman's Friend",
+      "image": "https://cdn.vox-cdn.com/thumbor/Z2dtt8BWv7SB3IxzIeKM-L11rdo=/0x0:1024x683/1120x0/filters:focal(0x0:1024x683):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/3615824/workingmans-friend-solares.0.jpg",
+      "type": "classic",
+      "price": 140,
+      "description": "This nearly 100-year-old dive bar — which 'looks like a VFW Hall,' Solares says — serves the epitome of the 'smash burger' style found throughout the Midwest. True to its name, the patties are formed when short-order cooks emphatically fling (or smash) balls of ground meat onto the griddle. At Workingman's, cooks 'take the smash technique to an extreme,' Solares says, resulting in patties 'reduced to an almost two-dimensional plane of seared beef.' Burgers can be ordered as singles, doubles, and topped with cheese, though make sure to marvel at the patties, so thin you can nearly see through them.",
+      "year": 1925,
+      "rating": 2
+    },
+   {
+      "id": 3,
+      "title": "Santa Fe Bite",
+      "image": "https://cdn.vox-cdn.com/thumbor/SZBCBJ7Eq3oXILMo6e2YSOX7D1g=/0x0:660x440/1120x0/filters:focal(0x0:660x440):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/3616592/santa-fe-NM.0.jpg",
+      "type": "classic",
+      "price": 155,
+      "description": "In New Mexico, green chile cheeseburgers are a way of life, inspiring 'Chile Cheeseburger Trails' both official and unofficial. For the uninitiated, the regional classic simply adorns a beef patty with some iteration of cheese and the locally grown chile pepper, often chopped and strewn on top. But according to Addison, the version at Santa Fe Bite 'is where the discussion of Santa Fe's canon of green chile cheeseburgers begins and ends.' (The restaurant is operated by the former owners of Bobcat Bite, the beloved institution that also served a 'phenomenal' burger; it was forced to close in 2013 due to a landlord dispute.) Says Addison of Santa Fe's current offering: 'The burger itself has steak-y heft, and the hint of Swiss in the cheese mix slightly mellows the smokiness of the chilies.",
+      "year": 1960,
+      "rating": 4
+    },
+   {
+      "id": 4,
+      "title": "Pie 'n Burger",
+      "image": "https://cdn.vox-cdn.com/thumbor/mGAjud5CIXgpNMpIcejE7sNdMTY=/0x0:1023x681/1120x0/filters:focal(0x0:1023x681):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/3615866/pie-n-burger.0.png",
+      "type": "classic",
+      "price": 125,
+      "description": "Los Angeles's Apple Pan did it first (opening in 1947), but according to Solares, the old-school Pie 'n Burger lunch counter in nearby Pasadena serves 'the quintessential version of the Southern California burger.' Pie 'n Burger, which opened back in 1963, tops its burgers with a simple leaf of lettuce, slice of American cheese, and pickles, then drenches the bottom in a house-made Thousand Island dressing 'made with a recipe provided by Kraft,' Solares says.",
+      "year": 1947,
+      "rating": 3
+    },
+   {
+      "id": 5,
+      "title": "Matt's Bar",
+      "image": "https://cdn.vox-cdn.com/thumbor/zt8XzitFeMSD0seQJgCkM7tpCbQ=/0x0:492x286/1120x0/filters:focal(0x0:492x286):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/3616664/Matts_Bar_Juicy_Lucy.0.0.0.jpg",
+      "type": "classic",
+      "price": 135,
+      "description": "In Minneapolis, an ongoing debate has raged for decades: Who invented the Juicy Lucy, the regional burger style that famously stuffs cheese inside the beef patty? Two establishments lay claim to the genius idea: the 5-8 Club, which stuffs its patty with a choice of cheeses, and Matt's Bar, which cheekily abhors proper spelling ('Jucy Lucy') but keeps it pure with just one cheese choice. 'Matt's is perfect,' says Eater Minneapolis editor Joy Summers. 'It's not too big, the cheese is molten and always contained within the patties. Best of all: the griddle at Matt's has long cooked nothing but beef and fried onions. The flavor that it imparts cannot be over-stated. It's so simple and just the perfect bite of what a cheese stuffed, unadorned burger should be.",
+      "year": 1957,
+      "rating": 3
+    },
+   {
+      "id": 6,
+      "title": "All-American Drive-In",
+      "image": "https://cdn.vox-cdn.com/thumbor/Dx610yrxgaQetJ2vJmxWuIRBMRw=/0x0:1024x684/1120x0/filters:focal(0x0:1024x684):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/3618170/20150321-all_american-1_1024.0.png",
+      "type": "classic",
+      "price": 150,
+      "description": "If you ever wondered what McDonald's tasted like in the earliest days when it was just a simple burger stand, before Big Mac's and the adoption of frozen beef, All American Drive-In has your answer,' says Solares of this historic Long Island burger stand. Founded in 1963 as a true drive-in, its burgers — including cheeseburgers and the McD's-like Quarter Pounder with Cheese — seem 'untouched by time,' Solares says.",
+      "year": 1963,
+      "rating": 5
+    },
+   {
+      "id": 7,
+      "title": "Town Topic",
+      "image": "https://cdn.vox-cdn.com/thumbor/eMPUNz_WSi3jvCvqLSMGJWZ2F60=/0x0:1024x683/1120x0/filters:focal(0x0:1024x683):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/3615906/town_topic_-single_1024.0.png",
+      "type": "classic",
+      "price": 110,
+      "description": "The classic 'slider' has nothing to do with a burger's diminutive size: Although the term was made famous by White Castle, sliders refer to thin patties cooked on a griddle atop (and below) shredded raw onion. As the onions cook, they release water, creating additional steam heat that helps shape the flavor of the beef — a process that Solares calls 'steam griddling.' At Kansas City's 24-hour icon Town Topic, those sliders are available as single, double, and triple burgers (with our without cheese). And though the restaurant also offers 'bigger'-sized burgers, Solares calls its real-deal sliders 'the most elemental of burger forms.",
+      "year": 1983,
+      "rating": 3
+    },
+   {
+      "id": 8,
+      "title": "Au Cheval",
+      "image": "https://cdn.vox-cdn.com/thumbor/FrIPKvT9I1faI05dSmXTJtiABFE=/0x0:789x526/1120x0/filters:focal(0x0:789x526):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/3615952/aucheval-chicago.0.jpg",
+      "type": "new classic",
+      "price": 130,
+      "description": "According to Bill Addison, this haute Chicago diner burger, which boasts two beef patties on the 'single' hamburger, represents 'one of the country's best examples of the flattop-griddled burger hoisted to haute levels without losing sight of its diner roots.' American cheese slices and a Dijon/lemon/mayo-based sauce adds depth of flavor, and 'the kitchen nails the ratios: It's impressive how well the bun cradles all those calories without meddling with the meaty savor.' Addison adds one pro tip: 'I know some people relish the power move of adding foie, but after trying it with and without the liver I don't think this burger needs any more embellishment.",
+      "year": 1990,
+      "rating": 3
+    },
+   {
+      "id": 9,
+      "title": "Craigie on Main",
+      "image": "https://cdn.vox-cdn.com/thumbor/jJrjHci2FL8RkNNpQfk_rrDKR_8=/0x0:1200x899/1120x0/filters:focal(0x0:1200x899):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/3616326/Craigie_on_Main_Burger_-_Michael_Piazza.0.0.jpg",
+      "type": "new classic",
+      "price": 160,
+      "description": "Alongside Michael Schlow's well-loved Radius burger, Eater Boston editor Rachel Blumenthal calls the Craigie on Main burger a 'pioneer of Boston's 'upscale' burger class.' Chef Tony Maws' now-iconic version features a house-made milk-style bun, Maws' mace ketchup, vinaigrette-dressed greens, and a patty highlighting 'impeccable ingredients,' Blumenthal says. As for how it tastes? 'From the giant, juicy patty to the bun that achieves that perfect texture between soft and firm, it's one of the best burgers you'll eat.",
+      "year": 1972,
+      "rating": 5
+    },
+   {
+      "id": 10,
+      "title": "The General Muir",
+      "image": "https://cdn.vox-cdn.com/thumbor/5MYqIm3dzn0Bs_RdTztELgflhyo=/0x0:1024x683/1120x0/filters:focal(0x0:1024x683):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/3615960/generalmuir_iconicburgers_1024.0.png",
+      "type": "new classic",
+      "price": 120,
+      "description": "This Atlanta restaurant, an elegantly re-imagined take on the traditional New York City deli, serves two different versions of its burger. At lunch, there's what Addison calls a 'tamer version' of chef Todd Ginsberg's much-heralded burger at his previous restaurant, Bocado. But at dinner, Addison says, the 'frizzled pastrami, Gruyere, and caramelized onions appear,' yielding delightfully chaotic results. 'There's beauty in this beast,' he says. 'It is an unholy mess to eat, slipping and sliding as you try to wrestle it, but all the elements come together so masterfully and each bite is so different that it's worth the handfuls of napkins.",
+      "year": 1995,
+      "rating": 5
+    },
+   {
+      "id": 11,
+      "title": "The Spotted Pig",
+      "image": "https://cdn.vox-cdn.com/thumbor/KAF8qdDjYbpBdmHQ2TC4NPGuI9g=/0x0:1000x668/1120x0/filters:focal(0x0:1000x668):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/3616306/spotted-pig-burger.0.jpg",
+      "type": "new classic",
+      "price": 150,
+      "description": "This is a burger with a Michelin star, the work of chef April Bloomfield at her 11-year-old Greenwich Village gastropub the Spotted Pig. 'You might not think you're a roquefort-topped burger person, but the Spotted Pig will make you one,' says Eater associate reports editor Hillary Dixler. Bloomfield serves her burgers atop an ever-so-slightly sweet toasted brioche bun, and Dixler offers a pro tip: 'Don't forget to ask for some dijon mustard: just a tiny bit cuts through those rich flavors and takes the thing home.",
+      "year": 1999,
+      "rating": 3
+    },
+   {
+      "id": 12,
+      "title": "Husk",
+      "image": "https://cdn.vox-cdn.com/thumbor/yMc5TGRWjSNF-MKiqHKWVQ7v26o=/0x0:1024x683/1120x0/filters:focal(0x0:1024x683):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/3616330/husk_iconicburgers_1024.0.png",
+      "type": "new classic",
+      "price": 140,
+      "description": "This is basically God on a squishy bun,' Addison says of chef Sean Brock's now-famous burger, which exists in slightly modified versions at his Charleston and Nashville Husk outposts. The nod here goes to the original beast, featuring hickory-smoked Benton's bacon ground directly into the chuck blend. 'By grinding bacon with the ground beef the burger takes on the quality similar to Southern vegetables long simmered with pork,' Addison says. 'The flavors meld, becoming indistinguishable from one another.' The burger's also topped with American cheese, a noted Brock necessity. Says Addison: 'I can't think of another burger I'd more like to eat right this minute.",
+      "year": 1969,
+      "rating": 3
+    },
+   {
+      "id": 13,
+      "title": "Minetta Tavern",
+      "image": "https://cdn.vox-cdn.com/thumbor/IhHXSaE7VBbYcwOFOKQBcAUTu8U=/0x0:1024x768/1120x0/filters:focal(0x0:1024x768):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/3616372/20121013-minetta_tavern_black_label-1_1024.0.png",
+      "type": "new classic",
+      "price": 120,
+      "description": "The famous Black Label burger at Minetta Tavern has been turning heads since it was introduced as part of restaurateur Keith McNally's relaunch of the historic restaurant in 2009. ​One of New York City's essential dry-aged burgers, ​it's a dry-aged ribsteak burger topped caramelized onions, and served with french fries. ​It's a personal favorite of Eater founder Lockhart Steele and Nick Solares​ adds​:​ ​'Minetta​'s​ is the highest expression of the hamburger without using extraneous ingredients.",
+      "year": 1950,
+      "rating": 3
+    },
+   {
+      "id": 14,
+      "title": "Shake Shack",
+      "image": "https://cdn.vox-cdn.com/thumbor/He7oI-J0rykdMu16GDgxYCUPIx4=/0x0:1023x682/1120x0/filters:focal(0x0:1023x682):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/3617788/20130410-shake_shack-1_1024.0.png",
+      "type": "new classic",
+      "price": 120,
+      "description": "Danny Meyer's burger chain that really really really could. ​Shake Shack has grown from a one-off burger stand in New York City's Madison Square Park to a publicly traded company with locations across the globe. There's a real nostalgic flair to the Shake Shack burger, from the Martin's Potato Roll bun to the proprietary beef blend and Shack Sauce, to the crisp griddled edges and the wax paper wrapper. 'It has spawned a legion of imitators and gone some way to defining a NYC style,' Solares says of Shake Shack's burger architecture: 'Griddle-seared, five-ounce burgers on potato buns with American cheese.",
+      "year": 1940,
+      "rating": 3
+    },
+   {
+      "id": 15,
+      "title": "Le Pigeon",
+      "image": "https://cdn.vox-cdn.com/thumbor/UTdnR3qoKL-jaCRmlGC01LqBTUQ=/0x0:720x480/1120x0/filters:focal(0x0:720x480):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/3617994/lepigeon-burgeredi.0.jpg",
+      "type": "ULTIMATE BISTRO BURGERS",
+      "price": 170,
+      "description": "Before chef Gabriel Rucker's James Beard Award for Rising Star Chef skewed the menu more toward haute tastings, his iconic Portland restaurant Le Pigeon helped usher in the era of the rules-breaking bistro burger. In earlier incarnations, Rucker — who would limit the burger to a scant five per evening — reached for unconventional items like sharp white cheddar, grilled picked onions, and a ciabatta roll, to the chagrin of burger purists. These days, the recipe remains the same, but the burger is available in unlimited quantities. Either way, according to reports editor Erin DeJesus, 'it's a satisfyingly messy umami bomb, and still representative of Le Pigeon's playful nature.",
+      "year": 1935,
+      "rating": 3
+    },
+   {
+      "id": 16,
+      "title": "Nopa",
+      "image": "https://cdn.vox-cdn.com/thumbor/vtUJ168ZZ7_a0EktufzcEUEcw78=/0x0:1024x683/1120x0/filters:focal(0x0:1024x683):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/3616408/nopa_iconicburgers_1024.0.png",
+      "type": "ULTIMATE BISTRO BURGERS",
+      "price": 165,
+      "description": "A more modern version of the burger in the Zuni Cafe mold (read: California seasonal), Nopa's burger 'has become an Americana beacon in a city known for its obsession with produce and seasonality,' Addison says. According to Eater SF editor Allie Pape, the grass-fed beef patty is aided by a secret weapon: 'It's grilled over an almond-wood fire, which makes it deliciously fragrant and smoky.' Addison suggests diners add a 'smattering' of blue cheese on top for the ultimate experience: 'You can come to the restaurant and eat gorgeous, of-the-moment vegetables, but then you pick up this stunner and feel such primal satisfaction.",
+      "year": 1945,
+      "rating": 3
+    },
+   {
+      "id": 17,
+      "title": "Ray's Hell Burger",
+      "image": "https://cdn.vox-cdn.com/thumbor/j3PqWNQgs2MeVUPBMUK2JxpaXgg=/0x0:790x526/1120x0/filters:focal(0x0:790x526):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/3616446/reys-hell-DC.0.jpg",
+      "type": "ULTIMATE BISTRO BURGERS",
+      "price": 135,
+      "description": "Traditionally, the 'steakhouse-style' burger features a massive beef patty made from aged beef trimmings from the menu's other steaks (per Solares, as a result of the heft, such burgers are often broiled). At DC's Ray's Hell Burger chainlet, Addison marvels at the 10-ounce burger, and according to Eater DC editor Missy Fredrick, the original Hell Burgers are considered 'iconic to DC for a few reasons — general deliciousness, the quality of meat used, the burgers' relative affordability (in a town where a $20 burger isn't unheard of) and the famous patrons who have consumed them over the years.",
+      "year": 1958,
+      "rating": 3
+    },
+   {
+      "id": 18,
+      "title": "Salt & Time",
+      "image": "https://cdn.vox-cdn.com/thumbor/pbMZGozPh-Tuv5h_RjAftEwLFSA=/0x0:720x479/1120x0/filters:focal(0x0:720x479):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/3616508/saltandtime-autin.0.jpg",
+      "type": "ULTIMATE BISTRO BURGERS",
+      "price": 130,
+      "description": "Austin's five-year-old butcher counter/restaurant sources all its meat from Texas ranchers (of course), resulting in a Butcher Burger 'that's never the same burger day after day,' says Eater Austin associate editor Nadia Chaudhury, noting that the beef patty is constructed with leftover trimmings, and served with aioli and a tomato jam. (One constant: the tallow-fried French fries serve on the side.) 'I still think about the delicious texture of the burger in my mouth at least once a week,' Chaudhury says, and here's a pro tip: 'Don't forgo the 'nduja for a spicier kick.",
+      "year": 1976,
+      "rating": 5
+    },
+   {
+      "id": 19,
+      "title": "The Grape",
+      "image": "https://cdn.vox-cdn.com/thumbor/o3Q9gWSRNf1dJIAcRgLaKDzAxAc=/0x0:1023x682/1120x0/filters:focal(0x0:1023x682):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/3617986/thegrape-7032_1024.0.png",
+      "type": "ULTIMATE BISTRO BURGERS",
+      "price": 150,
+      "description": "At this Dallas bistro, the 10-ounce hamburger's only available two days a week (Sundays and Mondays), creating a cult-like fervor to score what Texas Monthly has named the Best Burger in Texas. According to Eater Dallas editor Whitney Filloon, 'the Grape's burger is a pretty straightforward creation, but every element is masterfully executed — from the thick, juicy patty and the toasty, locally-baked bun to the perfectly melted white cheddar, house-made peppered bacon, and tangy dijonnaise, plus the pristine lettuce and tomato (and the side of killer frites).",
+      "year": 1979,
+      "rating": 3
+    },
+   {
+      "id": 20,
+      "title": "The Cypress Room",
+      "image": "https://cdn.vox-cdn.com/thumbor/WKSpYXrKVnmLqkTmAxoZSgcNouw=/0x0:1024x683/1120x0/filters:focal(0x0:1024x683):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/3616358/cypressroom_iconicburgers_1024.0.png",
+      "type": "ULTIMATE BISTRO BURGERS",
+      "price": 170,
+      "description": "Miami chef Michael Schwartz has blazed a trail littered with successful burgers. In 2013, his namesake restaurant Michael's Genuine Food & Drink flaunted a Black Angus burger worthy of the essential list; this time around, burger attention has focused on the steakhouse-style burger (more on those later) featured at the Cypress Room. 'If I'm eating a steakhouse-style burger, where the flavor has to come from the quality of the beef rather than the browning of thin patties, I like to taste shades of dry-aged funk, and trimmings from dry-aged côte de bouef (which the restaurant serves for two) gives this burger that boost,' Addison says. 'It blurs the line between chopped steak and hamburger. There's no shame in eating this one with a knife and fork.",
+      "year": 1982,
+      "rating": 3
+    },
+   {
+      "id": 21,
+      "title": "Bernie's Burger Bus",
+      "image": "https://cdn.vox-cdn.com/thumbor/gsO40Ayz0OP8Nn_Ww_AD2jpsmks=/0x0:960x616/1120x0/filters:focal(0x0:960x616):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/3616650/bernies-burger-bus.0.jpg",
+      "type": "ULTIMATE BISTRO BURGERS",
+      "price": 160,
+      "description": "Forget food trucks — this re-appropriated bus serves a bistro take on the 'old-school' burger, using Black Angus beef and housemade condiments, including slow-roasted garlic tomatoes, on its classic burger. Want to push the limits of bistro burger-dom? Bernie's also offers, among other options, a double cheeseburger sandwiched in between two bacon-stuffed grilled cheese sandwiches.",
+      "year": 1988,
+      "rating": 5
+    }
+    
+]
