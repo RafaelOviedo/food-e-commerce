@@ -1,5 +1,5 @@
 <template>
-  <div>Register Page</div>
+  <div class="registerText">Register Page</div>
 </template>
 
 <script>
@@ -9,5 +9,9 @@ export default {
 </script>
 
 <style scoped>
-
+.resgisterText {
+  position: absolute;
+  top: 20%;
+  left: 45%;
+}
 </style>

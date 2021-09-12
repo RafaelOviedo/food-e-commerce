@@ -1,5 +1,5 @@
 <template>
-  <div>Lading Page</div>
+  <div class="landingText">Lading Page</div>
 </template>
 
 <script>
@@ -9,5 +9,9 @@ export default {
 </script>
 
 <style scoped>
-
+.landingText {
+  position: absolute;
+  top: 20%;
+  left: 45%;
+}
 </style>

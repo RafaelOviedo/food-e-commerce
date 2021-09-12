@@ -1,15 +1,15 @@
 <template>
-  <div class="aboutText">About Page</div>
+  <div class="productsText">Products Page</div>
 </template>
 
 <script>
 export default {
-    name: "AboutPage"
+    name: "ProductsPage",
 }
 </script>
 
-<style>
-.aboutText {
+<style scoped>
+.productsText {
   position: absolute;
   top: 20%;
   left: 45%;
