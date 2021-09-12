@@ -4,6 +4,6 @@ import store from "./store"
 import router from "./router"
 
 createApp(App)
-    .mount('#app')
+    .use(router)
     .use(store)
-    .use(router);
+    .mount('#app');
