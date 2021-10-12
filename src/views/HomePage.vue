@@ -1,7 +1,9 @@
 <template>
   <div class="homeText">
     <ul>
-      <li v-for="(meal, index) in allMeals" :key="index">{{meal.title}}</li>
+      <li v-for="(meal, index) in allMeals" :key="index">
+        <p>{{meal.title}}</p>
+      </li>
     </ul>
   </div>
 </template>
