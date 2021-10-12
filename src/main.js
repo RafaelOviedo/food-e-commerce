@@ -5,7 +5,7 @@ import router from "./router"
 //import firebase package
 import firebase from 'firebase/compat/app';
 
-// define your firebase app config
+// define and initialize your firebase app config
 const firebaseApp = firebase.initializeApp({
   apiKey: "AIzaSyD264w5aW2mYuaje_8jn7sJ0LoXb9rwFm0",
   authDomain: "food-e-commerce-810f8.firebaseapp.com",
@@ -15,7 +15,7 @@ const firebaseApp = firebase.initializeApp({
   appId: "1:779643384521:web:75a638ca80a522e2291318"
 });
  
-// Initialize Firebase
+// Export firebaseApp
 export default firebaseApp;
   
 createApp(App)
