@@ -12,7 +12,7 @@ const store = createStore({
     },
     actions: {
         async getAllMeals({ commit }) {
-            const response = await axios.get("./personalAPI.json");
+            const response = await axios.get("./burgersAPI.json");
             console.log("ALL MEALS FROM ACTION", response.data)
             commit("getAllMeals", response.data);
         }
