@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class="registerTitle">Register</h1>
-    <form class="registerBox">
+    <form class="registerBox" @submit.prevent="register">
 
       <label for="mailInput" class="mailLabel">Mail</label>
       <input id="mailInput" class="mailInput" type="text" placeholder="Type your email..." v-model="email">
@@ -9,7 +9,7 @@
       <label for="passwordInput" class="passwordLabel">Password</label>
       <input id="passwordInput" class="passwordInput" type="password" placeholder="Type your password..." v-model="password">
 
-        <button class="registerButton" @submit.prevent="register">Register</button>
+        <button class="registerButton" type="submit">Register</button>
 
     </form>
     <p class="registerLink">Don't have an account yet? <router-link :to="{ name: 'LogInPage' }" class="listItem">Login here</router-link></p>
@@ -17,24 +17,45 @@
 </template>
 
 <script>
-import firebase from "firebase/compat/app"
+// import firebase from "firebase/compat/app";
+import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+import firebaseApp from "../main"
+import { ref } from "vue";
 
 export default {
   name: "RegisterPage",
-  data() {
-    return {
-      email: "",
-      password: "",
-    }
-  },
-  methods: {
-    register() {
-      firebase.auth()
-      .createUserWithEmailAndPassword(this.email.value, this.password.value)
+  setup() {
+    const auth = getAuth(firebaseApp);
+    const email = ref("");
+    const password = ref("");
+
+   let register = () => {
+      createUserWithEmailAndPassword(auth, email.value, password.value)
       .then(user => { alert(user) })
-      .catch(error => alert(error.message));
+      .catch(error => alert("ERROR", error.message));
+    }
+
+    return {
+      register,
+      auth,
+      email,
+      password
     }
   }
+  // data() {
+  //   return {
+  //     email: "",
+  //     password: "",
+  //   }
+  // },
+  // methods: {
+  //   register() {
+  //     firebase.auth()
+  //     .createUserWithEmailAndPassword(this.email.value, this.password.value)
+  //     .then(user => { alert(user) })
+  //     .catch(error => alert(error.message));
+  //   }
+  // }
 }
 </script>
 

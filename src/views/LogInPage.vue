@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class="loginTitle">Log In</h1>
-    <form class="loginBox">
+    <form class="loginBox" @submit.prevent="login">
 
       <label for="mailInput" class="mailLabel">Mail</label>
       <input id="mailInput" class="mailInput" type="text" placeholder="Type your email..." v-model="email">
@@ -9,7 +9,7 @@
       <label for="passwordInput" class="passwordLabel">Password</label>
       <input id="passwordInput" class="passwordInput" type="password" placeholder="Type your password..." v-model="password">
 
-        <button class="loginButton" @submit.prevent="login">LogIn</button>
+        <button class="loginButton" type="submit">LogIn</button>
 
     </form>
     <p class="registerLink">Don't have an account yet? <router-link :to="{ name: 'RegisterPage' }" class="listItem">Register here</router-link></p>
@@ -17,24 +17,45 @@
 </template>
 
 <script>
-import firebase from "firebase/compat/app"
+// import firebase from "firebase/compat/app"
+import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
+import firebaseApp from "../main"
+import { ref } from "vue";
 
 export default {
   name: "LogInPage",
-  data() {
-    return {
-      email: "",
-      password: "",
+  setup() {
+    const auth = getAuth(firebaseApp);
+    const email = ref("");
+    const password = ref("");
+
+   let login = () => {
+      signInWithEmailAndPassword(auth, email.value, password.value)
+      .then(user => { alert(user) })
+      .catch(error => alert("ERROR", error.message));
     }
-  },
-  methods: {
-    login() {
-      firebase.auth()
-      .signInWithEmailAndPassword(this.email.value, this.password.value)
-      .then(data => console.log(data))
-      .catch(error => alert(error.message));
+
+    return {
+      login,
+      auth,
+      email,
+      password
     }
   }
+  // data() {
+  //   return {
+  //     email: "",
+  //     password: "",
+  //   }
+  // },
+  // methods: {
+  //   login() {
+  //     firebase.auth()
+  //     .signInWithEmailAndPassword(this.email.value, this.password.value)
+  //     .then(data => console.log(data))
+  //     .catch(error => alert(error.message));
+  //   }
+  // }
 }
 </script>
 
