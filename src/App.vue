@@ -20,6 +20,7 @@ export default {
 
     onBeforeMount(() => {
       onAuthStateChanged(auth, user => { 
+        console.log("ENTRA")
         if(!user) {
           router.replace("/login");
         } else if(route.path === "/login" || route.path === "/register") {
@@ -27,6 +28,12 @@ export default {
         } 
       });
     });
+    
+    return {
+      router,
+      route,
+      auth
+    }
   }
 }
 </script>
