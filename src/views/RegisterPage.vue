@@ -17,45 +17,33 @@
 </template>
 
 <script>
-// import firebase from "firebase/compat/app";
-import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
-import firebaseApp from "../main"
-import { ref } from "vue";
+import * as firebase from "firebase/app";
+import "firebase/auth";
 
 export default {
   name: "RegisterPage",
-  setup() {
-    const auth = getAuth(firebaseApp);
-    const email = ref("");
-    const password = ref("");
-
-   let register = () => {
-      createUserWithEmailAndPassword(auth, email.value, password.value)
-      .then(user => { alert(user) })
-      .catch(error => alert("ERROR", error.message));
+    data() {
+      return {
+        email: "",
+        password: "",
+      }
+    },
+    methods: {
+      async register() {
+        try {
+            const user = await firebase.auth().createUserWithEmailAndPassword(this.email, this.password);
+            console.log("USER", user)
+            if (!user) {
+              this.$route.replace({name: "HomePage"})
+            } else {
+              alert("user already exist, please log in!")
+              this.$router.replace({name: "LogInPage"});
+            }
+          } catch(error) {
+            console.log("ERROR", error)
+          }
+      }
     }
-
-    return {
-      register,
-      auth,
-      email,
-      password
-    }
-  }
-  // data() {
-  //   return {
-  //     email: "",
-  //     password: "",
-  //   }
-  // },
-  // methods: {
-  //   register() {
-  //     firebase.auth()
-  //     .createUserWithEmailAndPassword(this.email.value, this.password.value)
-  //     .then(user => { alert(user) })
-  //     .catch(error => alert(error.message));
-  //   }
-  // }
 }
 </script>
 
