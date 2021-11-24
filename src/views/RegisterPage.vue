@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import * as firebase from "firebase/app";
+import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import "firebase/auth";
 
 export default {
@@ -26,22 +26,23 @@ export default {
       return {
         email: "",
         password: "",
+        auth: getAuth(),
       }
     },
     methods: {
-      async register() {
-        try {
-            const user = await firebase.auth().createUserWithEmailAndPassword(this.email, this.password);
+      register() {
+        createUserWithEmailAndPassword(this.auth, this.email, this.password)
+          .then((userCredential) => {
+            // Signed in
+            const user = userCredential.user;
+            console.log("USER CREDENTIAL", userCredential)
             console.log("USER", user)
-            if (!user) {
-              this.$route.replace({name: "HomePage"})
-            } else {
-              alert("user already exist, please log in!")
-              this.$router.replace({name: "LogInPage"});
-            }
-          } catch(error) {
-            console.log("ERROR", error)
-          }
+          })
+          .catch((error) => {
+            const errorCode = error.code;
+            const errorMessage = error.message;
+            console.log("ERRORS", errorCode, errorMessage)
+          });
       }
     }
 }

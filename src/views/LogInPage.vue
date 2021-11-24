@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import * as firebase from "firebase/app";
+import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 import "firebase/auth";
 
 export default {
@@ -26,23 +26,23 @@ export default {
     return {
       email: "",
       password: "",
+      auth: getAuth(),
     }
   },
   methods: {
-    async login() {
-        try {
-            const user = await firebase.auth().signInWithEmailAndPassword(this.email, this.password);
-            console.log("USER", user)
-            if (user) {
-              this.$route.replace({name: "HomePage"})
-            } else {
-              alert("not user found, please register!")
-              this.$router.replace({name: "RegisterPage"});
-            }
-          } catch(error) {
-            console.log("ERROR", error)
-          }
-      }
+    login() {
+    signInWithEmailAndPassword(this.auth, this.email, this.password)
+      .then((userCredential) => {
+        // Signed in
+        const user = userCredential.user;
+        console.log("USER LOGING", user)
+      })
+      .catch((error) => {
+        const errorCode = error.code;
+        const errorMessage = error.message;
+        console.log("ERRORS", errorCode, errorMessage)
+      });
+    }
   }
 }
 </script>
